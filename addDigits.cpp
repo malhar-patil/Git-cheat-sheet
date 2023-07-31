@@ -5,8 +5,8 @@ int addDigits(int n){
     int ans=0;
     while(n>0){
         int lastdigit=n%10;
-        ans+=n;
-        n=n/10;
+        ans+=lastdigit;
+        n=n/10
     }
     return;
 }
