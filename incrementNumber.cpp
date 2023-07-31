@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
-void increment(int & n){
+
+int increment(int & n){
     ++n;
 }
 
