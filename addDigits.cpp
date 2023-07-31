@@ -17,6 +17,6 @@ int n;
 cout<<"Enter a number: ";
 cin>>n;
 int ans= addDigits(n);
-cout<<"Sum of digits is: "<<ans<<endl
+cout<<"Sum of digits is: "<<ans<<endl;
 return 0;
 }
