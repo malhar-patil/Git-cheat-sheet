@@ -12,7 +12,9 @@ int main(){
 int n;
 cout<<"Enter a number: ";
 cin>>n;
+
 int ans=getReverse(n);
-cout<<"Reverse of number is: "<<ans<<endl;
+cout<<"Reverse of the given number is: "<<ans<<endl;
+
 return 0;
 }
